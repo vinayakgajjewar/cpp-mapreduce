@@ -1,0 +1,3 @@
+MapReduce is a programming model and software framework that is used to process large amounts of data in parallel across a large number of distributed servers. It was created by Google in 2004 and is now widely used in industry and academia for handling big data.
+
+The MapReduce model is composed of two main functions: the map function and the reduce function. The map function is responsible for taking input data and processing it into key-value pairs, while the reduce function takes those key-value pairs and performs a computation on them to produce a final output.

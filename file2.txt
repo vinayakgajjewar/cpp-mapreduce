@@ -1,0 +1,11 @@
+Here's how MapReduce works in practice:
+
+1. The input data is divided into chunks and distributed across a cluster of machines.
+
+2. Each machine applies the map function to its chunk of data, producing a set of key-value pairs.
+
+3. The key-value pairs are sorted and grouped by key, so that all values with the same key are grouped together.
+
+4. Each group of key-value pairs is passed to a reduce function, which performs some computation on the values to produce a single output value for each key.
+
+5. The final output values are combined to produce the overall result.
